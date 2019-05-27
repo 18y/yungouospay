@@ -10,8 +10,8 @@ class Pay
 	private $api;
 
 	public $config  = array(
-		"mch_id" => "1535384631",
-		"secret" => "8AC3D86C2D3249868AFAB5B1C7D5294A",
+		"mch_id" => "你的mch_id",
+		"secret" => "你的secret",
 	);
 
 	public function __construct()
