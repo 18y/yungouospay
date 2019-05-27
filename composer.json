@@ -1,0 +1,23 @@
+{
+  "name": "18y/yungouospay",
+  "description": "yungouos支付,个人支付",
+  "keywords": ["18y", "yungouos", "个人支付"],
+  "type": "library",
+  "homepage": "https://github.com/18y",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "18y",
+          "email": "cmphper@163.com"
+      }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.38"
+  },
+  "autoload": {
+    "psr-4": {
+      "yungouospay\\": "src/"
+    }
+  }
+}
