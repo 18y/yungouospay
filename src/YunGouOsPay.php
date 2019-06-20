@@ -17,7 +17,7 @@ class YunGouOsPay
 		// 授权url
 		"oauth_url"     	=> "https://api.pay.yungouos.com/api/wxlogin/getOauthUrl",
 		// 获取授权信息
-		"get_oauth_url"		=> "https://api.pay.yungouos.com/api/wxlogin/getOauthInfo",
+		"get_oauth_url"		=> "https://api.pay.yungouos.com/api/wxlogin/getBaseOauthInfo",
 		// 查询订单
 		"query_order"   	=> "https://api.pay.yungouos.com/api/pay/wxpay/getWxPayOrderInfo",
 		// 订单退款
